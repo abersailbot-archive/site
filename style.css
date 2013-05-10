@@ -1,0 +1,34 @@
+#header
+{
+	background-color: #fc0;
+	color: #56318E;
+	font-family: 'Georgia', serif;
+	font-size: 40px;
+	padding: 10px;
+
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+
+}
+
+#everything
+{
+	padding: 5px;
+	background-color: #fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#foot
+{
+	color:  #fff;
+	padding: 10px;
+	background-color: #56318E;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+body
+{
+	background-color: #EA5B20;
+}
