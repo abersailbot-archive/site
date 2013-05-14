@@ -13,7 +13,7 @@
 {
         float: left;
         padding: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
         background-color: #fc0;
 	font-family: 'Georgia', serif;=
 	color: #56318E;
@@ -36,7 +36,7 @@
 }
 
 
-#content img
+#intros img
 {
 	float: right;
 }
@@ -45,6 +45,7 @@
 {
 	color:  #fff;
 	padding: 1px;
+	margin-top: 1em;
 	background-color: #56318E;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
