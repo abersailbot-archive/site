@@ -36,9 +36,10 @@
 }
 
 
-#intros img
+#intros img, #boatLab
 {
 	float: right;
+	margin-bottom: 1em;
 }
 
 #foot
@@ -51,6 +52,7 @@
 	border-radius: 15px;
 	text-align: center;
 	clear: left;
+	clear: right;
 }
 
 body
