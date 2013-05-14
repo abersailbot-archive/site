@@ -33,9 +33,25 @@
 			<div id="content">
 				<img id="boatLab" src="img/boatLab.jpg" alt="The Boat in the lab"/>
 				<h2>Overview</h2>
-				<p>Our entry this year is a 1.3 meter long custom built fiberglass boat. It uses a combination of an electronic compass, a GPS receiver and a wind sensor to detect its orientation, position and the wind direction. These are connected to a Raspberry Pi, which is a cheap single board ARM based computer, running Linux, and an Arduino Uno micro-controller board. The sail is controlled by an electronic winch and the rudder by a servo motor, both controlled by the Arduino.</p>
+				<p>Our entry this year is a 1.3 meter long custom built fibreglass boat. It uses a combination of an electronic compass, a GPS receiver and a wind sensor to detect its orientation, position and the wind direction. These are connected to a Raspberry Pi, which is a cheap single board ARM based computer, running Linux, and an Arduino Uno micro-controller board. The sail is controlled by an electronic winch and the rudder by a servo motor, both controlled by the Arduino.</p>
 				<h2>Specifics</h2>
-				<p></p>
+				<h3>Software</h3>
+				<p>The main logic is written in Java, running on the Raspberry Pi, which then communicates to the Arduino via some Python code, due to the fact that Java's serial communication libraries are horrible to use.</p>
+				<p>The Python code reads in from all the sensors via the Arduino, except the GPS, which is connected directly to the Pi. Then, when requested, it forwards them on to the Java code via a TCP/IP socket.</p>
+				<p>Another reason we decided to do this was because we wanted to leave the Java code able to be tested and developed using our boat simulator, which is a version of the open source TrackSail game which was edited to be able to be controlled via a TCP/IP socket.</p>
+				<p>The Python code will also communicate to our laptop, via an XBee (a long range wireless communication board), so that we can view the sensor readings and set/remove/edit way points from the shore, whilst the boat is still sailing.</p>
+				<p>The telemetry code on the computer is written in Java, and displays an OpenStreetMap of the area with the boats location indicated as well as the readings from all the sensors. It also allows the user to click on the map, to set a way point on the boat.</p>
+				<p>The Arduino code is written in the Arduino variant of C and simply reads from the appropriate sensor when it gets the command from the Pi. It also has a command to calibrate the wind sensor, to avoid the data it gives out loosing accuracy over time.</p>
+				<h3>Hardware</h3>
+				<p>Of course there is the Raspberry Pi, the Arduino and the XBee as the control system, but other than that, we have 3 sensors and 2 servos:</p>
+				<ul>
+					<li>We have a GPS, with an external antennae which is directly connected to the Raspberry Pi via Serial, and is mounted inside the boat with the electronics</li>
+					<li>We have a tilt-compensating compass, connected to the Arduino via Serial, which is mounted at the very front of the boat just under the deck</li>
+					<li>We have a home-made wind sensor, which is mounted on a pole at the back of the boat</li>
+					<li>As an actuator to move the sails there is a sail winch designed for RC boats mounted through the middle of the deck.</li>
+					<li>And as an actuator to move the rudder we also have a single waterproof servo mounted into the deck at the rear</li>
+				</ul> 
+				<p>Finally we have an RC receiver inside the boat which allows us to take control of the boat manually via an RC remote control if something goes wrong during the sail.</p>
 			</div>
 			<div id="foot">
 				<h3>&copy; Aber SailBot team</h3>
