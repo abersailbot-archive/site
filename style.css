@@ -2,7 +2,7 @@
 {
 	background-color: #fc0;
 	color: #56318E;
-	font-family: 'Georgia', serif;=
+	font-family: 'Georgia', serif;
 	padding: 10px;
 	text-align: center;
 	-moz-border-radius: 15px;
@@ -15,7 +15,7 @@
         padding: 1em;
 	margin-bottom: 1em;
         background-color: #fc0;
-	font-family: 'Georgia', serif;=
+	font-family: 'Georgia', serif;
 	color: #56318E;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -40,6 +40,7 @@
 {
 	float: right;
 	margin-bottom: 1em;
+	margin-left: 1em;
 }
 
 #foot
