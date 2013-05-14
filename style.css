@@ -12,9 +12,7 @@
 #menu
 {
         float: left;
-        padding-top: 1em;
-	padding-left: 1em;
-	margin-right: 2em;
+        padding: 1em;
 	margin-bottom: 2em;
         background-color: #fc0;
 	font-family: 'Georgia', serif;=
@@ -34,11 +32,13 @@
 #content
 {
 	padding: 10px;
+	padding-left: 15em;
 }
 
-form { 
-	padding:15px;
 
+#content img
+{
+	float: right;
 }
 
 #foot
