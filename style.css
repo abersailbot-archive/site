@@ -21,6 +21,18 @@
 	border-radius: 15px;
 }
 
+.menuItem:hover
+{
+	background-color: #8fa850;
+	color: #fff;
+}
+
+#menuItemCurrent:hover
+{
+	background-color: #56318E;
+	color: #fff;
+}
+
 #everything
 {
 	padding: 1em;
