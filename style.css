@@ -21,13 +21,20 @@
 	border-radius: 15px;
 }
 
+.menuItem, .current
+{
+	display: block;	
+	height: 20px;
+	width: 50px;
+}
+
 .menuItem:hover
 {
 	background-color: #8fa850;
 	color: #fff;
 }
 
-#menuItemCurrent:hover
+.current
 {
 	background-color: #56318E;
 	color: #fff;
