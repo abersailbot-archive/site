@@ -11,33 +11,48 @@
 
 #menu
 {
-        float: left;
-        padding: 1em;
-	margin-bottom: 1em;
-        background-color: #fc0;
+    float: left;
+    
+    padding-top: 1em;
+    padding-bottom:1em;
+    margin-right:1em;
+    margin-bottom:1em;
+   
+    background-color: #fc0;
 	font-family: 'Georgia', serif;=
 	color: #56318E;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 
-.menuItem, .current
+.menuItem 
 {
+	padding:5%;
 	display: block;	
 	height: 20px;
-	width: 100%;
-	border: 1px solid black;
+	width: 90%;
+	
 }
 
 .menuItem:hover
 {
 	background-color: #8fa850;
-	color: #fff;
 }
 
 .current
 {
 	background-color: #56318E;
+	
+}
+
+a.menuItem
+{
+	text-decoration:none;
+	color: #56318E;
+}
+
+a.current, a.menuItem:hover
+{
 	color: #fff;
 }
 
@@ -73,6 +88,11 @@
 	border-radius: 15px;
 	text-align: center;
 	clear: both;
+}
+
+form
+{
+	padding:1em;
 }
 
 body
