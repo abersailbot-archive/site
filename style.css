@@ -36,7 +36,7 @@
 
 .menuItem.donate
 {
-	border: 5px, dashed, #8fa850;
+	border: 5px dashed #8fa850;
 }
 
 .menuItem:hover
