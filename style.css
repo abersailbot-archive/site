@@ -14,8 +14,7 @@
 	padding-top: 1em;
 	padding-bottom:1em;
 	margin-right:1em;
-	margin-bottom:1em;   
-	width:200px;
+	margin-bottom:1em;
 	background-color: #fc0;
 	color: #56318E;
 	-moz-border-radius: 15px;
@@ -25,9 +24,7 @@
 .menuItem 
 {
 	padding: 10px;
-	display: block;	
-	height: 20px;
-	width: 180px;
+	display: block;
 	text-decoration:none;
 	color: #56318E;
 }
@@ -96,5 +93,5 @@ form.donate
 body
 {
 	background-color: #EA5B20;
-	font-family: 'Bubblegum Sans', cursive;
+	font-family: 'Helvetica', cursive;
 }
