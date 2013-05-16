@@ -34,6 +34,11 @@
 	
 }
 
+.menuItem.donate
+{
+	border: 5px, dashed, #8fa850;
+}
+
 .menuItem:hover
 {
 	background-color: #8fa850;
