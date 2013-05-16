@@ -11,15 +11,13 @@
 
 #menu
 {
-    float: left;
-    
-    padding-top: 1em;
-    padding-bottom:1em;
-    margin-right:1em;
-    margin-bottom:1em;
-   
-    width:200px;
-    background-color: #fc0;
+	float: left;
+	padding-top: 1em;
+	padding-bottom:1em;
+	margin-right:1em;
+	margin-bottom:1em;   
+	width:200px;
+	background-color: #fc0;
 	font-family: 'Georgia', serif;=
 	color: #56318E;
 	-moz-border-radius: 15px;
@@ -28,11 +26,13 @@
 
 .menuItem 
 {
-	padding:10px;
+	padding: 10px;
 	display: block;	
 	height: 20px;
 	width: 180px;
-	
+	border-bottom: 5px dashed;
+	text-decoration:none;
+	color: #56318E;
 }
 
 .menuItem.donate
@@ -48,19 +48,17 @@
 
 .current
 {
-	background-color: #56318E;
-	
+	background-color: #56318E;	
 }
 
-a.menuItem
-{
-	text-decoration:none;
-	color: #56318E;
-}
-
-a.current, a.menuItem:hover
+.menuItem.current, .menuItem:hover
 {
 	color: #fff;
+}
+
+.menuItem.donate:hover
+{
+	border-color: #fff;
 }
 
 #everything
