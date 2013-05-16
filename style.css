@@ -93,6 +93,13 @@ form
 {
 	padding-left:1em;
 	padding-right: 1em;
+	text-align: center;
+}
+
+form.donate
+{
+	display: block;
+	border: 5px dashed #8fa850;
 }
 
 body
