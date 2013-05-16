@@ -70,8 +70,7 @@ a.current, a.menuItem:hover
 	padding-left: 14em;
 }
 
-
-#intros img, #boatLab
+.floatRightImage
 {
 	float: right;
 	margin-bottom: 1em;
@@ -92,7 +91,7 @@ a.current, a.menuItem:hover
 
 form
 {
-	padding-left: 1em;
+	padding-left:1em;
 	padding-right: 1em;
 }
 
