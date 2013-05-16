@@ -18,6 +18,7 @@
     margin-right:1em;
     margin-bottom:1em;
    
+    width:200px;
     background-color: #fc0;
 	font-family: 'Georgia', serif;=
 	color: #56318E;
@@ -27,15 +28,16 @@
 
 .menuItem 
 {
-	padding:5%;
+	padding:10px;
 	display: block;	
 	height: 20px;
-	width: 90%;
+	width: 180px;
 	
 }
 
 .menuItem.donate
 {
+	width: 170px;
 	border: 5px dashed #8fa850;
 }
 
