@@ -1,8 +1,7 @@
 #header
 {
 	background-color: #fc0;
-	color: #56318E;
-	font-family: 'Georgia', serif;=
+	color: #56318E;=
 	padding: 10px;
 	text-align: center;
 	-moz-border-radius: 15px;
@@ -18,7 +17,6 @@
 	margin-bottom:1em;   
 	width:200px;
 	background-color: #fc0;
-	font-family: 'Georgia', serif;=
 	color: #56318E;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -122,4 +120,5 @@ form.donate
 body
 {
 	background-color: #EA5B20;
+	font-family: 'Bubblegum Sans', cursive;
 }
