@@ -30,7 +30,6 @@
 	display: block;	
 	height: 20px;
 	width: 180px;
-	border-bottom: 5px dashed;
 	text-decoration:none;
 	color: #56318E;
 }
@@ -56,9 +55,22 @@
 	color: #fff;
 }
 
-.menuItem.donate:hover
+.menuItem.donate:hover, .menuItem.current.donate
 {
-	border-color: #fff;
+	border-top-color: #fc0;
+	border-bottom-color: #fc0;
+}
+
+.menuItem.current.donate
+{
+	border-left-color: #56318E;
+	border-right-color: #56318E;
+}
+
+.menuItem.current.donate:hover
+{
+	border-left-color: #8fa850;
+	border-right-color: #8fa850;
 }
 
 #everything
