@@ -32,12 +32,6 @@
 	color: #56318E;
 }
 
-.menuItem.donate
-{
-	width: 170px;
-	border: 5px dashed #8fa850;
-}
-
 .menuItem:hover
 {
 	background-color: #8fa850;
@@ -51,24 +45,6 @@
 .menuItem.current, .menuItem:hover
 {
 	color: #fff;
-}
-
-.menuItem.donate:hover, .menuItem.current.donate
-{
-	border-top-color: #fc0;
-	border-bottom-color: #fc0;
-}
-
-.menuItem.current.donate
-{
-	border-left-color: #56318E;
-	border-right-color: #56318E;
-}
-
-.menuItem.current.donate:hover
-{
-	border-left-color: #8fa850;
-	border-right-color: #8fa850;
 }
 
 #everything
