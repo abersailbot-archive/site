@@ -1,24 +1,24 @@
 #header
 {
+	/*margin-top: 0.7em;*/
+	margin-bottom: 1em;
+	padding: 10px;
 	background-color: #fc0;
 	color: #56318E;
-	/*padding: 0.1px;*/
 	text-align: center;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #menu
 {
 	float: left;
-	padding-top: 1em;
-	padding-bottom:1em;
-	margin-right:1em;
-	margin-bottom:1em;
+	/*padding-top: 1em;*/
+	margin-top: 1em;
 	background-color: #fc0;
 	color: #56318E;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 @media all and (max-width: 640px){
@@ -64,10 +64,10 @@
 #everything
 {
 	padding: 1em;
-	padding-top: 2px;
+	/*padding-top: 2px;*/
 	background-color: #fff;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 #content
@@ -90,8 +90,8 @@
 	padding: 1px;
 	margin-top: 1em;
 	background-color: #56318E;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	text-align: center;
 	clear: both;
 }
