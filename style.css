@@ -39,7 +39,12 @@
 	background-color: #56318E;	
 }
 
-.menuItem.current, .menuItem:hover
+.donate
+{
+	background-color: #ff0000;
+}
+
+.menuItem.current, .menuItem.donate, .menuItem:hover
 {
 	color: #fff;
 }
