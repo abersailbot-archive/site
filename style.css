@@ -29,6 +29,11 @@
 	color: #56318E;
 }
 
+.menuItem.donate
+{
+	background-color: #ff0000;
+}
+
 .menuItem:hover
 {
 	background-color: #8fa850;
@@ -39,10 +44,7 @@
 	background-color: #56318E;	
 }
 
-.menuItem.donate
-{
-	background-color: #ff0000;
-}
+
 
 .menuItem.current, .menuItem.donate, .menuItem:hover
 {
