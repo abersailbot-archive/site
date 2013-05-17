@@ -62,7 +62,7 @@
 
 #content
 {
-	width:100%;
+	float:right;
 	padding-left: 12em;
 	padding-right: 1em;
 }
