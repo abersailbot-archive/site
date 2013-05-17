@@ -1,0 +1,117 @@
+#header
+{
+	background-color: #fc0;
+	color: #56318E;
+	/*padding: 0.1px;*/
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#menu
+{
+	/*float: left;*/
+	padding-top: 1em;
+	padding-bottom:1em;
+	margin-right:1em;
+	margin-bottom:1em;
+	background-color: #fc0;
+	color: #56318E;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.menuItem 
+{
+	padding: 10px;
+	display: block;
+	text-decoration:none;
+	color: #56318E;
+}
+
+.menuItem.donate
+{
+	background-color: #ff0000;
+}
+
+.menuItem:hover
+{
+	background-color: #8fa850;
+}
+
+.current
+{
+	background-color: #56318E;	
+}
+
+
+
+.menuItem.current, .menuItem.donate, .menuItem:hover
+{
+	color: #fff;
+}
+
+#everything
+{
+	padding: 1em;
+	padding-top: 2px;
+	background-color: #fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#content
+{
+	overflow:hidden;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.floatRightImage
+{
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+#foot
+{
+	color:  #fff;
+	padding: 1px;
+	margin-top: 1em;
+	background-color: #56318E;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	text-align: center;
+	clear: both;
+}
+
+form
+{
+	padding-left:1em;
+	padding-right: 1em;
+	text-align: center;
+}
+
+form.donate
+{
+	display: block;
+	border: 5px dashed #8fa850;
+}
+
+body
+{
+	background-color: #EA5B20;
+	font-family: 'Helvetica', cursive;
+	font-size: 17px;
+}
+
+img
+{
+	max-width: 100%;
+	height: auto;
+	margin:auto;
+	display:block;
+}
+
+
