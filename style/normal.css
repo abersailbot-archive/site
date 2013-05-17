@@ -13,7 +13,8 @@
 #menu
 {
 	float: left;
-	/*padding-top: 1em;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
 	margin-top: 1em;
 	background-color: #fc0;
 	color: #56318E;
