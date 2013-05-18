@@ -6,8 +6,8 @@
 	background-color: #fc0;
 	color: #56318E;
 	text-align: center;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
 #menu
@@ -18,8 +18,8 @@
 	margin-top: 1em;
 	background-color: #fc0;
 	color: #56318E;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
 @media all and (max-width: 640px){
@@ -67,8 +67,8 @@
 	padding: 1em;
 	/*padding-top: 2px;*/
 	background-color: #fff;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 
 #content
@@ -91,8 +91,8 @@
 	padding: 1px;
 	margin-top: 1em;
 	background-color: #56318E;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	text-align: center;
 	clear: both;
 }
