@@ -1,0 +1,22 @@
+.post
+{
+	padding-top: 1em;
+	border-bottom: 1px solid grey;
+}
+
+.postTitle
+{
+	font-weight: bold;
+}
+
+.postContent
+{
+	margin: 0.5em 0 0.5em 0;
+}
+
+.postFoot
+{
+	font-size: smaller;
+	color: grey;
+	padding-bottom: 0.5em;
+}
