@@ -110,6 +110,11 @@ form.donate
 	border: 5px dashed #8fa850;
 }
 
+#donateButton
+{
+	width: 250px;
+}
+
 body
 {
 	background-color: #EA5B20;
