@@ -446,10 +446,12 @@
 
 				<div class="post">
 					<div class="postTitle">
-						Fixed Sail Winch
+						Rewiring, Testing &amp; Sail Winch Problems
 					</div>
 					<div class="postContent">
-						<p>Today we managed to fix the Sail Winch problems we were having by rewiring the rudder servo and the RC receiver to be powered off the sail winch. We also scheduled our first RC test for March 17th, and discovered a slight sail winch tension issue which was, when the sail is put under load, tension can be lost in the system causing the rigging line to fall off the Sail Winch. We also secured the Arduino mounting to the raspberry pi.</p>
+						<p>Yesterday we finished rewiring the power box, we tested the new rudder servo in its mounting, and tested the sail winch (which was, annoyingly, still going crazy). We also mounted the sail onto the rig for the first time.</p>						
+						<img src="img/blog/sailRig.jpg" alt="The sail in place on the boat"/>
+						<p>Then Today, finally, we managed to fix the Sail Winch problems we were having by rewiring the rudder servo and the RC receiver to be powered off the sail winch. We also scheduled our first RC test for March 17th, and discovered a slight sail winch tension issue which was, when the sail is put under load, tension can be lost in the system causing the rigging line to fall off the Sail Winch. We also secured the Arduino mounting to the raspberry pi.</p>
 					</div>
 					<div class="postFoot">
 						Post made at 19:55, 15/03/13 by Daniel Clark
@@ -458,54 +460,19 @@
 
 				<div class="post">
 					<div class="postTitle">
-						Rewiring and Testing
+						Deliveries, Compass Problems &amp; Making Things Final
 					</div>
 					<div class="postContent">
-						<p>Today we finished rewiring the power box, we tested the new rudder servo in its mounting, and tested the sail winch, which is still going crazy. We also mounted the sail onto the rig for the first time.</p>
-					<img src="img/blog/sailRig.jpg" alt="The sail in place on the boat"/>
-					</div>
-					<div class="postFoot">
-						Post made at 20:40, 14/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Fixed Compass and Making Things Final
-					</div>
-					<div class="postContent">
-						<p>Today we managed to diagnose and fix the compass problems we'd been having, it ended up being due to there being a dodgy pin on our Arduino, so we found a replacement, and due to the fact we were using pin headers rather than soldering on the Arduino itself, it took hardly any time.</p>
+						<p>The new waterproof connectors finally arrived on Monday.</p>
+						<img src="img/blog/waterproofConnectorsSmall.jpg" alt="Waterproof Connectors Arrived"/>
+						<p>Yesterday we planned to test the compass, but it didn't work, it wasn't returning anything at all, so we spent the rest of the day trying to figure out why, and fix it. We checked the Python and Arduino code for reasons, but it all seemed fine, and worked out eventually that it was an issue with the connection to the compass, or the compass itself. We also laid out the electronics wiring so we know what fits where in which box.</p>
+						<img src="img/blog/wiringLayoutSmall.jpg" alt="Wiring Layout"/>
+						<p>Then today we managed to diagnose and fix the compass problems we'd been having, it ended up being due to there being a dodgy pin on our Arduino, so we found a replacement, and due to the fact we were using pin headers rather than soldering on the Arduino itself, it took hardly any time.</p>
 						<p>We also wired up the wind sensor, epoxied in the compass, and threaded the sail winch tensioning bungee into the rig.</p>
-					<img src="img/blog/tensionBungeeSmall.jpg" alt="Threaded Tension Bungee"/>
+						<img src="img/blog/tensionBungeeSmall.jpg" alt="Threaded Tension Bungee"/>
 					</div>
 					<div class="postFoot">
-						Post made at 17:30, 13/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Compass Problems
-					</div>
-					<div class="postContent">
-						<p>Today we planned to test the compass, but it didn't work, it wasn't returning anything at all, so we spent the rest of the day trying to figure out why, and fix it. We checked the Python and Arduino code for reasons, but it all seemed fine, and worked out eventually that it was an issue with the connection to the compass, or the compass itself. We also laid out the electronics wiring.</p>
-					<img src="img/blog/wiringLayoutSmall.jpg" alt="Wiring Layout"/>
-					</div>
-					<div class="postFoot">
-						Post made at 18:05, 12/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Deliveries
-					</div>
-					<div class="postContent">
-						<p>The new waterproof connectors arrived today.</p>
-					<img src="img/blog/waterproofConnectorsSmall.jpg" alt="Waterproof Connectors Arrived"/>
-					</div>
-					<div class="postFoot">
-						Post made at 15:25, 11/03/13 by Louis Taylor
+						Post made at 18:05, 13/03/13 by Daniel Clark
 					</div>
 				</div>
 
@@ -536,75 +503,29 @@
 
 				<div class="post">
 					<div class="postTitle">
-						Test Code
-					</div>
-					<div class="postContent">
-						<p>This morning we wrote some Python code for the Pi that gathered data from all the sensors and logged it to a file. We also decided that the final high-level code will be written in C++ rather than Python.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 13:15, 06/03/13 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
 						It's Getting Busy
 					</div>
 					<div class="postContent">
-						<p>Today it feels like we did an awful lot. We tested the new multiplexer and decided that the power distribution board and the battery switch should go into the batteries box. Louis also made the Perspex mounting for the Arduino to the Pi, and the mounting for the Compass into the boat. We epoxied the compass into it's container (almost blowing it up in the process because of the heat), and attached it to it's mounting. Decided on and ordered which waterproof connectors to use, and also the new, fully waterproof rudder servo arrived.</p>
+						<p>Today it feels like we did an awful lot. We tested the new multiplexer and decided that the power distribution board and the battery switch should go into the batteries box. Louis also made the Perspex mounting for the Arduino to the Pi, and the mounting for the Compass into the boat. We epoxied the compass into it's container (almost blowing it up in the process because of the heat), and attached it to it's mounting. We decided on and ordered which waterproof connectors to use, and also the new, fully waterproof rudder servo arrived. Then this morning we wrote some Python code for the Pi that gathered data from all the sensors and logged it to a file. We also decided that the final high-level code will be written in C++ rather than Python.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 22:50, 05/03/13 by Daniel Clark
+						Post made at 22:50, 06/03/13 by Daniel Clark
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						Deliveries
+						Deliveries, GPIO, Rudder &amp; Sails
 					</div>
 					<div class="postContent">
-						<p>Today the new multiplexer and battery box arrived, and this afternoon we soldered in the new multiplexer and checked that the batteries fit inside the new box.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 17:40, 04/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Sails Finished
-					</div>
-					<div class="postContent">
-						<p>Today we got the sails finished and mounted onto the mast.</p>
+						<p>Over the last few days the new multiplexer and battery box arrived, we soldered in the new multiplexer, checked that the batteries fit inside the new box and this afternoon the mapped out what each GPIO pin on the Raspberry Pi did and what we were using them for, then mapped out a possible new, more logical configuration for the pins we're using.</p>
+<p>We also got the rudder finished and attached to its mounting on the boat.</p>
+					<img src="img/blog/rudderAdded.jpg" alt="Rudder Added"/>
+					<p>As well as that we got the sails finished and mounted on the mast for the first time</p>
 					<img src="img/blog/sailFinished.jpg" alt="Sail Finished"/>
 					</div>
 					<div class="postFoot">
-						Post made at 15:45, 03/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Rudder Added
-					</div>
-					<div class="postContent">
-						<p>Today we got the rudder finished and attached it to the boat.</p>
-					<img src="img/blog/rudderAdded.jpg" alt="Rudder Added"/>
-					</div>
-					<div class="postFoot">
-						Post made at 14:35, 02/03/13 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						GPIO Pins
-					</div>
-					<div class="postContent">
-						<p>This afternoon the mapped out what each GPIO pin on the Raspberry Pi did and what we were using them for, then mapped out a possible new, more logical configuration for the pins we're using.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 15:00, 01/03/13 by Ashley Iles
+						Post made at 17:40, 05/03/13 by Daniel Clark
 					</div>
 				</div>
 
@@ -631,7 +552,7 @@
 					</div>
 					<div class="postContent">
 						<p>This week we connected up the compass for the first time with the new code (now merged into the main Arduino code) and tested it, it worked well giving some reasonably accurate readings, but we took into account that the lab has a lot of magnetic interference.</p>
-<p>Wednesday morning the refurbishment subteam finished adding the new deck to the hull and adding the first layer of paint. Ashley also built the power distribution board with some resistors, a 5v regulator and a 3.3 volt regulator, which, as suspected, fixed the problems we found at the Mach Pi Jam. We also ordered a box for the batteries which is exactly the same as the main box.</p>
+						<p>Wednesday morning the refurbishment subteam finished adding the new deck to the hull and adding the first layer of paint. Ashley also built the power distribution board with some resistors, a 5v regulator and a 3.3 volt regulator, which, as suspected, fixed the problems we found at the Mach Pi Jam. We also ordered a box for the batteries which is exactly the same as the main box.</p>
 					</div>
 					<div class="postFoot">
 						Post made at 23:30, 22/02/12 by Daniel Clark
@@ -680,8 +601,8 @@
 					</div>
 					<div class="postContent">
 						<p>The last few weeks have been about planning, we had a meeting to coordinate who would be doing what programming. Louis was designated the low level Python side on the Pi because he has previous experience, Dave was designated the high level Python side because he has experience with sailing and high level logic, Ashley was designated to do the C++ side on the Arduino and Kamil was chosen to do the telemetry side on the laptop to be used from the shore.</p>
-<p>In another meeting we calculated the power budget and put it all onto the GitHub wiki. We designed a rough layout for the hardware inside the boat, chose the Peli 1060 waterproof box to keep the electronics dry and chose the 'Pololu RC Servo 4 Channel Multiplexer' to switch between radio control, and automatic control by the Pi/Arduino.</p>
-<p>And finally this afternoon we got a spare Arduino hooked up to a spare Raspberry Pi via USB and got some primitive communications between the 2. Overall, a pretty good few weeks I think.</p>
+						<p>In another meeting we calculated the power budget and put it all onto the GitHub wiki. We designed a rough layout for the hardware inside the boat, chose the Peli 1060 waterproof box to keep the electronics dry and chose the 'Pololu RC Servo 4 Channel Multiplexer' to switch between radio control, and automatic control by the Pi/Arduino.</p>
+						<p>And finally this afternoon we got a spare Arduino hooked up to a spare Raspberry Pi via USB and got some primitive communications between the 2. Overall, a pretty good few weeks I think.</p>
 					</div>
 					<div class="postFoot">
 						Post made at 23:15, 13/12/12 by David Capper
@@ -694,8 +615,8 @@
 					</div>
 					<div class="postContent">
 						<p>Early this week the restoration group got the deck off the hull and started work on making the new one and on Wednesday the new deck material arrived. With the decking material came the RC receiver and the RC controller.</p>
-<img src="img/blog/oldDecksOff.jpg" alt="got the old deck off of the hull"/>
-<p>The new tilt-compensating compass also arrived this week and we managed to write some code for the Arduino to get data from it, but didn't have time to test it (yet). We also found a GPS that we can use and after some fiddling got some data out of it, but didn't get a GPS lock.</p>
+						<img src="img/blog/oldDecksOff.jpg" alt="got the old deck off of the hull"/>
+						<p>The new tilt-compensating compass also arrived this week and we managed to write some code for the Arduino to get data from it, but didn't have time to test it (yet). We also found a GPS that we can use and after some fiddling got some data out of it, but didn't get a GPS lock.</p>
 					</div>
 					<div class="postFoot">
 						Post made at 14:00, 16/11/12 by Louis Taylor
@@ -708,8 +629,8 @@
 					</div>
 					<div class="postContent">
 						<p>This week we went to the Digital Systems Lab for our first look at a potential boat hull. It needs some serious restoration and a new deck, but it seems strong enough and the right size for what we need.</p>
-<p>The restoration subteam, consisting of Louis and John, with help from our mentors, started planning out the exact work that needs done on the hull. The old deck needs to be removed, and a new one made and put back onto the boat, a mounting at the back needs adding for the rudder, and a slot for the mast needs to installed.</p>
-<p>Louis also setup the GitHub project.</p>
+						<p>The restoration subteam, consisting of Louis and John, with help from our mentors, started planning out the exact work that needs done on the hull. The old deck needs to be removed, and a new one made and put back onto the boat, a mounting at the back needs adding for the rudder, and a slot for the mast needs to installed.</p>
+						<p>Louis also setup the GitHub repository for the project.</p>
 					</div>
 					<div class="postFoot">
 						Post made at 18:45, 02/11/12 by David Capper
