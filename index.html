@@ -43,6 +43,35 @@
 
 				<div class="post">
 					<div class="postTitle">
+						Second Autonomous Test (ish)
+					</div>
+					<div class="postContent">
+						<p>Today was meant to be our second autonomous test, but it didn't exactly go according to plan, first off, the weather, the wind and rain were far higher than we expected, measuring wind speeds of 15kts when we got out the car (although it later calmed down a bit).</p>
+<p>Second, we got the boat rigged in record time, but problem, the Python code wasn't reading the GPS, Louis had managed to miss this trip and nobody was sure what had changed.</p>
+<p>The code still wasn't working, but despite that we thought we'd make the most of the situation and do another RC test (because we need to be competent at RC sailing just in case), so we got the boat in the water and it was sailing fine ... for the first 5 minutes, then problem number three, the linkage connecting the rudder to its servo came unclipped, so we had no steering, we just had to hope that with some sensible sail control, we could steer it towards land.</p>
+<p>This was all good until problem number 4 came into play, the chord which linked the sail winch to the sails lost tension and slipped off the winch, meaning that now we had no rudder or sail control, and the boat was stuck in the middle of the lake</p>
+<p>Eventually after about half an hour of waiting the wind eventually managed to blow the boat slowly but surely into reach, we got it out of the water, de-rigged it and brought it back to the lab.</p>
+<p>The test wasn't a complete failure though, we got to see the worst case of what COULD go wrong. We later discovered that a simple reboot of the GPS was all that was needed to fix the autonomous code problem, and we came up with solutions to the sail and rudder problems too, but we plan to implement them tomorrow</p>
+					</div>
+					<div class="postFoot">
+						Post made at 23:50 by Daniel Clark
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
+						First Autonomous Test
+					</div>
+					<div class="postContent">
+						<p>Today was a big milestone for us, we finally got the boat out in the marina sailing autonomously, no tacking yet, but it was great to see it finally working after all this time. Considering we seemed to be getting winds far higher than 15kts at which Sailbot is called off, despite a few bumps, some wet shoes and some manual tacking with the RC Remote, we can still call it a great, and generally successful, first autonomous sail. The next test is set for Tuesday at 4pm on the lake</p>
+					</div>
+					<div class="postFoot">
+						Post made at 23:15, 26/05/13 by Louis Taylor
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
 						Validation & Socket Death
 					</div>
 					<div class="postContent">
@@ -613,43 +642,20 @@
 						<p>This afternoon the instructions for connecting to the Raspberry Pi were added to the wiki, because up to this point, only 2 members of the team knew how to do it.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 16:50, 21/02/13 by Louis Taylor
+						Post made at 16:50, 24/02/13 by Louis Taylor
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						Compass &amp; Power board
+						Compass, Painting &amp; Power Board
 					</div>
 					<div class="postContent">
-						<p>Today we connected up the compass for the first time with the new code and tested it, it worked well giving some reasonably accurate readings, but we took into account that the lab has a lot of magnetic interference. Ashley also built the power distribution board with some resistors, a 5v regulator and a 3.3 volt regulator, which, as suspected, fixed the problems we found at the Mach Pi Jam. We also ordered a box for the batteries which is exactly the same as the main box.</p>
+						<p>This week we connected up the compass for the first time with the new code (now merged into the main Arduino code) and tested it, it worked well giving some reasonably accurate readings, but we took into account that the lab has a lot of magnetic interference.</p>
+<p>Wednesday morning the refurbishment subteam finished adding the new deck to the hull and adding the first layer of paint. Ashley also built the power distribution board with some resistors, a 5v regulator and a 3.3 volt regulator, which, as suspected, fixed the problems we found at the Mach Pi Jam. We also ordered a box for the batteries which is exactly the same as the main box.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 23:30, 20/02/12 by Daniel Clark
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Painting
-					</div>
-					<div class="postContent">
-						<p>This morning the refurbishment subteam finished adding the new deck to the hull and adding the first layer of paint</p>
-					</div>
-					<div class="postFoot">
-						Post made at 15:50, 19/02/13 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Code Merge
-					</div>
-					<div class="postContent">
-						<p>This afternoon we merged the code for the compass into the main Arduino code and compiled it onto the Arduino ready for testing.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 14:15, 13/02/13 by Daniel Clark
+						Post made at 23:30, 22/02/12 by Daniel Clark
 					</div>
 				</div>
 
@@ -667,146 +673,67 @@
 
 				<div class="post">
 					<div class="postTitle">
-						Servo's
+						Deliveries &amp; Servo's
 					</div>
 					<div class="postContent">
-						<p>Today we found an old servo and wired it up to the Arduino so that we can run some test code for the rudder driver.</p>
+						<p>Over the Christmas holidays the watertight box and our new Raspberry Pi arrived. We also found an old servo from a previous project and wired it up to the Arduino so that we could run some test code for the rudder driver.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 18:25, 21/01/13 by Louis Taylor
+						Post made at 14:15, 15/01/13 by Louis Taylor
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						Emulator
+						Emulator &amp; GPS Code
 					</div>
 					<div class="postContent">
-						<p>Today our mentor introduced us to an emulator he'd made for testing sailing robots, which was effectively a hacked up version of the open source <a href="http://tracksail.sourceforge.net/">TrackSail</a> game, which will be extremely useful later when we come to wanting to test our sailing algorithms without having to take the boat out.</p>
+						<p>This week our mentor introduced us to an emulator he'd made for testing sailing robots, which was effectively a hacked up version of the open source <a href="http://tracksail.sourceforge.net/">TrackSail</a> game, which will be extremely useful later when we come to wanting to test our sailing algorithms without having to take the boat out. Also this week we added the GPS commands to the wiki for future reference.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 16:05, 23/12/12 by Louis Taylor
+						Post made at 19:40, 21/12/12 by David Capper
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						Deliveries
+						Planning, Planning, and some Comms
 					</div>
 					<div class="postContent">
-						<p>Today the Watertight box and our new Raspberry Pi arrived.</p>
+						<p>The last few weeks have been about planning, we had a meeting to coordinate who would be doing what programming. Louis was designated the low level Python side on the Pi because he has previous experience, Dave was designated the high level Python side because he has experience with sailing and high level logic, Ashley was designated to do the C++ side on the Arduino and Kamil was chosen to do the telemetry side on the laptop to be used from the shore.</p>
+<p>In another meeting we calculated the power budget and put it all onto the GitHub wiki. We designed a rough layout for the hardware inside the boat, chose the Peli 1060 waterproof box to keep the electronics dry and chose the 'Pololu RC Servo 4 Channel Multiplexer' to switch between radio control, and automatic control by the Pi/Arduino.</p>
+<p>And finally this afternoon we got a spare Arduino hooked up to a spare Raspberry Pi via USB and got some primitive communications between the 2. Overall, a pretty good few weeks I think.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 14:15, 07/01/13 by Louis Taylor
+						Post made at 23:15, 13/12/12 by David Capper
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						GPS
+						Deliveries, Decking, GPS &amp; The Compass
 					</div>
 					<div class="postContent">
-						<p>This afternoon we added the GPS commands to the wiki.</p>
+						<p>Early this week the restoration group got the deck off the hull and started work on making the new one and on Wednesday the new deck material arrived. With the decking material came the RC receiver and the RC controller.</p>
+<img src="img/blog/oldDecksOff.jpg" alt="got the old deck off of the hull"/>
+<p>The new tilt-compensating compass also arrived this week and we managed to write some code for the Arduino to get data from it, but didn't have time to test it (yet). We also found a GPS that we can use and after some fiddling got some data out of it, but didn't get a GPS lock.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 19:40, 17/12/12 by David Capper
+						Post made at 14:00, 16/11/12 by Louis Taylor
 					</div>
 				</div>
 
 				<div class="post">
 					<div class="postTitle">
-						Coding Planning
+						Cogs Start Turning
 					</div>
 					<div class="postContent">
-						<p>Today we had a meeting to coordinate who would be doing what programming. Louis was designated the low level Python side on the Pi because he has previous experience, Dave was designated the high level Python side because he has experience with sailing and high level logic, Ashley was designated to do the C++ side on the Arduino and Kamil was chosen to do the telemetry side on the laptop to be used from the shore.</p>
+						<p>This week we went to the Digital Systems Lab for our first look at a potential boat hull. It needs some serious restoration and a new deck, but it seems strong enough and the right size for what we need.</p>
+<p>The restoration subteam, consisting of Louis and John, with help from our mentors, started planning out the exact work that needs done on the hull. The old deck needs to be removed, and a new one made and put back onto the boat, a mounting at the back needs adding for the rudder, and a slot for the mast needs to installed.</p>
+<p>Louis also setup the GitHub project.</p>
 					</div>
 					<div class="postFoot">
-						Post made at 17:50, 11/12/12 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Planning
-					</div>
-					<div class="postContent">
-						<p>Today the Power budget was calculated and put onto the GitHub wiki. We designed a rough layout for the hardware inside the boat, chose the Peli 1060 waterproof box to keep the electronics dry and chose the 'Pololu RC Servo 4 Channel Multiplexer' to switch between radio control, and automatic control by the Pi/Arduino.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 20:35, 07/12/12 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Pi to Arduino communications
-					</div>
-					<div class="postContent">
-						<p>This afternoon we got a spare Arduino hooked up to a spare Raspberry Pi via USB and got some primitive communications between the 2.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 23:15, 05/12/12 by David Capper
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Deliveries
-					</div>
-					<div class="postContent">
-						<p>Today the new deck, RC receiver and RC controller arrived.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 14:00, 19/11/12 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Removed Old Deck
-					</div>
-					<div class="postContent">
-						<p>Today the restoration group got the deck off the hull and started work on making the new one.</p>
-						<img src="img/blog/oldDecksOff.jpg" alt="got the old deck off of the hull"/>
-					</div>
-					<div class="postFoot">
-						Post made at 20:35, 09/11/12 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Electronics Work Starts
-					</div>
-					<div class="postContent">
-						<p>The new tilt-compensating compass arrived today, we wrote some code for the Arduino to get data from it, but didn't have time to test it. We also found a GPS that we can use and after some fiddling got some data out of it, but didn't get a GPS lock.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 18:45, 08/11/12 by David Capper
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Restoration Work Starts
-					</div>
-					<div class="postContent">
-						<p>Today restoration subteam, with help from one of our mentors, started planning out the exact work that needs done on the hull. The old deck needs to be removed, and a new one made and put back onto the boat, a mounting at the back needs adding for the rudder, and a slot for the mast needs to installed.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 16:15, 01/11/12 by Louis Taylor
-					</div>
-				</div>
-
-				<div class="post">
-					<div class="postTitle">
-						Boat Hull
-					</div>
-					<div class="postContent">
-						<p>Today we went to the Digital Systems Lab for our first look at the boat hull. It needs some serious restoration and a new deck, but it seems strong enough and the right size for what we need. Louis and John volunteered to work on the restoration. Louis also setup the GitHub project.</p>
-					</div>
-					<div class="postFoot">
-						Post made at 20:20, 31/10/12 by Louis Taylor
+						Post made at 18:45, 02/11/12 by David Capper
 					</div>
 				</div>
 
