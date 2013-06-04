@@ -43,6 +43,66 @@
 
 				<div class="post">
 					<div class="postTitle">
+						Travel &amp; Station Keeping
+					</div>
+					<div class="postContent">
+						<p>On Sunday Dan and his parents picked up the boat and headed back home to Reading, Louis and Ashley will be meeting him there the day before the flight, and will all travel to the airport together at 4am (4 hours before the flight).</p>
+						<p>Over the last couple of days the team (mainly Kamil) have been working on the station keeping code, thanks to the wonders of version control using Git, and now we seem to have got some functioning code, but no way of testing it properly until we get the boat back in the water state-side, so the simulator will have to do.</p>
+					</div>
+					<div class="postFoot">
+						Post made at 21:20 by [name]
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
+						Sub-Team Photo, Weather, Aber Comp-Sci, URL &amp; Boxing
+					</div>
+					<div class="postContent">
+						<p>Early this morning we found out we'd got our article put onto the <a href="http://www.aber.ac.uk/en/cs/latest-news/news-article/title-135673-en.html">Aberystwyth Computer Science homepage</a>, which got us even more publicity. We checked the weather for Boston next week and found that it's going to be a wopping 30 degrees C, twice the temperature here in Aber.</p>
+						<p>We also got a photo of the sub-team we're sending to Boston (and the boat), from yesterdays test:</p>
+						<img src="img/blog/subTeamPhoto.jpg" alt="The Sub-Team photo"/>
+						<p>Also today Louis finished the sails by adding our URL to them, looking far less empty now:</p>
+						<img src="img/blog/finishedSails.jpg" alt="Our finished sails"/>
+						<p>Lastly, but probably most importantly, today we also boxed up the boat and taped it up ready for Dan to take it home and eventually take it to the airport.</p>
+						<img src="img/blog/boatInBox.jpg" alt="The boat all packed up and ready to go"/>
+					</div>
+					<div class="postFoot">
+						Post made at hh:mm, 01/06/13 by Louis Taylor
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
+						3rd Autonomous Test, Logo's & Raspberry Pi
+					</div>
+					<div class="postContent">
+						<p>In short, today was the best day we've had so far, first off, i noticed at 2am that Raspberry Pi had put our blog entry up on <a href="http://www.raspberrypi.org/archives/4109">their site</a>, which got us so much publicity throughout the day, by lunch time we'd already got over 200 unique visitors.</p>
+						<p>The Louis got the Raspberry Pi logo finished and onto the sail, and even though it didn't have the green or pink, it still looked great, and after a few pictures and emails to the foundation, they agreed that it looked good, and that we should now focus on perfecting everything else.</p>
+						<p>The last great thing for the day was our 3rd autonomous test, we left at about 2 and got back around 5, it couldn't have gone better. With a couple to tunings to the PID we got it sailing perfectly, including tacking, and nothing broke. The code all worked great (no crashes), the rudder stayed attached and the sails stayed attached to the winch, a brilliant test, and overall, a brilliant day.</p>
+						<img src="img/blog/autoSail3.jpg" alt="A GoPro snapshot of our third autonomous test"/>
+					</div>
+					<div class="postFoot">
+						Post made at 20:10, 31/05/13 by Daniel Clark
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
+						Tacking, Bug Fixes, New Rudder Linkage, Extra Bungee &amp; Raspberry Pi Blog
+					</div>
+					<div class="postContent">
+						<p>Over the last few days we've had quite a lot of fixes to do from the previous test. First we knew how how stop the sail winch falling off, by adding an extra piece of bungee cord to keep it tight, so we did that. Then, after a few hours of thought we fixed the rudder linkage by removing the old one, and replacing it with some thick (and strong) copper wire from an old mains cable.</p>
+						<p>Next was the more difficult bit, figuring out why the code hadn't worked, which ended up taking us hardly any time at all, it turned out that it was just that some TCP sockets didn't close properly and all we needed to do was turn the control system off and on again.</p>
+						<p>Today Kamil added the tacking code using the algorithm we'd discussed, but as of yet, the PID was not tuned correctly, that's a job for are next test which is scheduled for tomorrow (the 31st). I also finished and sent off our blog post submission to the Raspberry Pi website, hopefully should be up in the next few days.</p>
+					</div>
+					<div class="postFoot">
+						Post made at 18:35, 30/05/13 by Daniel Clark
+					</div>
+				</div>
+
+				<div class="post">
+					<div class="postTitle">
 						Second Autonomous Test (ish)
 					</div>
 					<div class="postContent">
@@ -52,6 +112,7 @@
 <p>This was all good until problem number 4 came into play, the chord which linked the sail winch to the sails lost tension and slipped off the winch, meaning that now we had no rudder or sail control, and the boat was stuck in the middle of the lake</p>
 <p>Eventually after about half an hour of waiting the wind eventually managed to blow the boat slowly but surely into reach, we got it out of the water, de-rigged it and brought it back to the lab.</p>
 <p>The test wasn't a complete failure though, we got to see the worst case of what COULD go wrong. We later discovered that a simple reboot of the GPS was all that was needed to fix the autonomous code problem, and we came up with solutions to the sail and rudder problems too, but we plan to implement them tomorrow</p>
+					<img src="img/blog/veryWetTest.jpg" alt="Setting up for our second autonomous and very wet test"/>
 					</div>
 					<div class="postFoot">
 						Post made at 23:50, 28/05/13 by Daniel Clark
