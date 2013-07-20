@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^http://aberystwythsailbot.wordpress.com/$ [NC]
+RewriteRule ^(.*)$ http://http://aberystwythsailbot.wordpress.com/$1 [L,R=301]
